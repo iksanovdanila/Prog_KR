@@ -1,4 +1,4 @@
-main.c:
+main: main.c
 	gcc -Wall -o main main.c
-run:
+run: main
 	./main
